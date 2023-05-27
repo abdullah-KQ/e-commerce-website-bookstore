@@ -13,7 +13,7 @@
                     </div> 
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                                 <p class="text-center" style="font-size: 25px; color:rgb(212, 6, 6) "> السعر : {{$item->Price}}  </p>
                                 <div class="d-grid gap-2 col-6 mx-auto"> 
                                     <a class="btn btn-secondary border "  href="checkout/{{$item->id}}" style="margin-top: 40px; background:#FFD814;"> للشراء </a>
@@ -23,8 +23,8 @@
                                 <p class="text-center " style="font-size: 25px"> الكاتب : {{$item->Author}}  </p>
                                 <p class="text-center" style="font-size: 25px"> {{$item->Description}}  </p>
                             </div>
-                            <div class="col-sm-3">
-                                <img src="{{$item->Img}}" style="height:200px">
+                            <div class="col-sm-4">
+                                <img src="{{$item->Img}}" style="height:200px; width:200px">
                             </div> 
                         </div>
                     </div>
