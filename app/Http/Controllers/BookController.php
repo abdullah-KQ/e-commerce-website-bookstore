@@ -9,16 +9,21 @@ use Illuminate\Support\Facades\session;
 class BookController extends Controller
 {
 
-    public $Emid='';
+  public $Empid1='';
 
-    public function A1(Request $request){
-      session::put('empid','12345678');
-      return view('allBo');;
-    }
+  public function A1(Request $request){
+    
+      session::put('empid','1');
 
-    public function A2(Request $request){
-      DD($request);
-    }
+      return "The Vairable is stored";
+  }
+  
+  public function A2(Request $request){
+      $Books=DB::table('users')
+      -> where ('id','=', $request->session()->get('empid'))
+      ->get();
+      dd($Books);
+  }
 
 
     public function BookType(){

@@ -39,6 +39,11 @@ Route::get('invoic',[BookController::class,'invoic']);
 
 Route::get('/invoic',[BookController::class,'invoic']);
 
+Route::get('/A1',[BookController::class,'A1'])->name('A1');
+Route::get('/A2',[BookController::class,'A2'])->name('A2');
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

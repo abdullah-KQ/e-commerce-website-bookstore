@@ -130,16 +130,16 @@
             المنتجات 
           </h6>
           <p>
-            <a href="#!" class="text-reset">الكتب الدينية</a>
+            <a href="/islamicBook" class="text-reset">الكتب الدينية</a>
           </p>
           <p>
-            <a href="#!" class="text-reset"> الرويات </a>
+            <a href="/novels" class="text-reset"> الرويات </a>
           </p>
           <p>
-            <a href="#!" class="text-reset"> الكتب العلمية  </a>
+            <a href="/educationalBooks" class="text-reset"> الكتب العلمية  </a>
           </p>
           <p>
-            <a href="#!" class="text-reset"> كتب الاطفال </a>
+            <a href="/childrenBooks" class="text-reset"> كتب الاطفال </a>
           </p>
         </div>
         <!-- Grid column -->
@@ -151,13 +151,7 @@
            روابط مفيدة 
           </h6>
           <p>
-            <a href="#!" class="text-reset"> الاعدادات </a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset"> السلة </a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset"> للمساعدة </a>
+            <a href="/" class="text-reset"> الصفحة الرئسية </a>
           </p>
         </div>
         <!-- Grid column -->
